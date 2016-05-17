@@ -54,14 +54,38 @@
 		B368E6301CEB810300A7E772 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				B368E6311CEB810300A7E772 /* AppDelegate.swift */,
-				B368E6331CEB810300A7E772 /* ViewController.swift */,
-				B368E6351CEB810300A7E772 /* Main.storyboard */,
+				B3F451AA1CEB840D00554716 /* Model */,
+				B3F451A91CEB840500554716 /* View */,
+				B3F451A81CEB83FB00554716 /* Controller */,
 				B368E6381CEB810300A7E772 /* Assets.xcassets */,
-				B368E63A1CEB810300A7E772 /* LaunchScreen.storyboard */,
 				B368E63D1CEB810300A7E772 /* Info.plist */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		B3F451A81CEB83FB00554716 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B368E6311CEB810300A7E772 /* AppDelegate.swift */,
+				B368E6331CEB810300A7E772 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B3F451A91CEB840500554716 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B368E6351CEB810300A7E772 /* Main.storyboard */,
+				B368E63A1CEB810300A7E772 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B3F451AA1CEB840D00554716 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +276,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kos.bilyk.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -263,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kos.bilyk.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,6 +314,7 @@
 				B368E6421CEB810300A7E772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
